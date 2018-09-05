@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/adsai_bg.qm</file>
+        <file alias="ca">locale/adsai_ca.qm</file>
+        <file alias="cs">locale/adsai_cs.qm</file>
+        <file alias="da">locale/adsai_da.qm</file>
+        <file alias="de">locale/adsai_de.qm</file>
+        <file alias="en">locale/adsai_en.qm</file>
+        <file alias="en_US">locale/adsai_en_US.qm</file>
+        <file alias="es">locale/adsai_es.qm</file>
+        <file alias="fi">locale/adsai_fi.qm</file>
+        <file alias="fr_FR">locale/adsai_fr_FR.qm</file>
+        <file alias="hr">locale/adsai_hr.qm</file>
+        <file alias="it">locale/adsai_it.qm</file>
+        <file alias="ja">locale/adsai_ja.qm</file>
+        <file alias="ko_KR">locale/adsai_ko_KR.qm</file>
+        <file alias="nl">locale/adsai_nl.qm</file>
+        <file alias="pl">locale/adsai_pl.qm</file>
+        <file alias="pt">locale/adsai_pt.qm</file>
+        <file alias="pt_BR">locale/adsai_pt_BR.qm</file>
+        <file alias="ro_RO">locale/adsai_ro_RO.qm</file>
+        <file alias="ru">locale/adsai_ru.qm</file>
+        <file alias="sk">locale/adsai_sk.qm</file>
+        <file alias="sv">locale/adsai_sv.qm</file>
+        <file alias="tr">locale/adsai_tr.qm</file>
+        <file alias="uk">locale/adsai_uk.qm</file>
+        <file alias="zh_CN">locale/adsai_zh_CN.qm</file>
+        <file alias="zh_TW">locale/adsai_zh_TW.qm</file>
+    </qresource>
+</RCC>

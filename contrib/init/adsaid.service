@@ -1,0 +1,26 @@
+[Unit]
+Description=ADSAI's distributed currency daemon
+After=network.target
+
+[Service]
+User=adsai
+Group=adsai
+
+Type=forking
+PIDFile=/var/lib/adsaid/adsaid.pid
+
+ExecStart=/usr/bin/adsaid -daemon -pid=/var/lib/adsaid/adsaid.pid \
+          -conf=/etc/adsai/adsai.conf -datadir=/var/lib/adsaid
+
+ExecStop=-/usr/bin/adsai-cli -conf=/etc/adsai/adsai.conf \
+         -datadir=/var/lib/adsaid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

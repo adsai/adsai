@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Adsai
+Comment=Adsai P2P Cryptocurrency
+Comment[fr]=Adsai, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Adsai, eşten eşe kriptografik sanal para birimi
+Exec=adsai-qt %u
+Terminal=false
+Type=Application
+Icon=adsai128
+MimeType=x-scheme-handler/adsai;
+Categories=Office;Finance;

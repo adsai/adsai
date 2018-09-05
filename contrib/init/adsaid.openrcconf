@@ -1,0 +1,26 @@
+# /etc/conf.d/adsaid: config file for /etc/init.d/adsaid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/adsai/adsai.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/adsaid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/adsaid.pid"
+
+# Where to write adsaid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/adsaid"
+
+# User and group to own adsaid process
+#BITCOIND_USER="adsai"
+#BITCOIND_GROUP="adsai"
+
+# Path to adsaid executable
+#BITCOIND_BIN="/usr/bin/adsaid"
+
+# Nice value to run adsaid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

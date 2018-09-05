@@ -1,0 +1,11 @@
+[Protocol]
+exec=adsai-qt '%u'
+protocol=adsai
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
